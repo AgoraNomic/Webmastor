@@ -1,0 +1,25 @@
+Webmastor's Monthly Report - June
+=================================
+
+Directory
+-------------
+Agoran Homepage ( https://agoranomic.org/ )
+|- Ruleset ( https://agoranomic.org/ruleset/ )
+|- CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
+|- Registrar ( https://agoranomic.org/Registrar/ )
+
+Public Archives
+|- Agora Official
+|- ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
+|- Agora Business
+|- ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
+|- Agora Discussion
+|- ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
+
+Other Archives
+|- Reportor's Weekly Summaries
+|- ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
+|- Assessor's Reports
+|- ( https://agoranomic.org/assessor/ )
+
+Please alert the Webmastor of any missing links.
