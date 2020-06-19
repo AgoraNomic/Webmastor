@@ -1,29 +1,29 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-Last Updated:6/19/2020 2:38
+Last Updated:6/19/2020 2:43
 
 Directory
 -------------
-```
+
 Agoran Homepage ( https://agoranomic.org/ )
-|- Ruleset ( https://agoranomic.org/ruleset/ )
-|- CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
-|- Registrar ( https://agoranomic.org/Registrar/ )
+* Ruleset ( https://agoranomic.org/ruleset/ )
+* CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
+* Registrar ( https://agoranomic.org/Registrar/ )
+* Webmastor ( https://agoranomic.org/Webmastor/
 
 Public Archives
-|- Agora Official
-|- ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
-|- Agora Business
-|- ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
-|- Agora Discussion
-|- ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
+* Agora Official
+* ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
+* Agora Business
+* ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
+* Agora Discussion
+* ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
 
 Other Archives
-|- Reportor's Weekly Summaries
-|- ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
-|- Assessor's Reports
-|- ( https://agoranomic.org/assessor/ )
-```
+* Reportor's Weekly Summaries
+* ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
+* Assessor's Reports
+* ( https://agoranomic.org/assessor/ )
 
 Please alert the Webmastor of any missing links.
 
