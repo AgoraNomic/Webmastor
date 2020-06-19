@@ -1,29 +1,29 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-Last Updated:6/19/2020 2:43
+```Last Updated:6/19/2020 2:46
 
 Directory
 -------------
 
 Agoran Homepage ( https://agoranomic.org/ )
-* Ruleset ( https://agoranomic.org/ruleset/ )
-* CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
-* Registrar ( https://agoranomic.org/Registrar/ )
-* Webmastor ( https://agoranomic.org/Webmastor/
+|- Ruleset ( https://agoranomic.org/ruleset/ )
+|- CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
+|- Registrar ( https://agoranomic.org/Registrar/ )
+|- Webmastor ( https://agoranomic.org/Webmastor/ )
 
 Public Archives
-* Agora Official
-* ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
-* Agora Business
-* ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
-* Agora Discussion
-* ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
+|- Agora Official
+|- ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
+|- Agora Business
+|- ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
+|- Agora Discussion
+|- ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
 
 Other Archives
-* Reportor's Weekly Summaries
-* ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
-* Assessor's Reports
-* ( https://agoranomic.org/assessor/ )
+|- Reportor's Weekly Summaries
+|- ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
+|- Assessor's Reports
+|- ( https://agoranomic.org/assessor/ )
 
 Please alert the Webmastor of any missing links.
 
@@ -44,6 +44,7 @@ pages that host them, as well as to any other Agora-related pages.
 
 Jun 2020
 
+- agornomic.org/Webmastor now online (nch)
 - agoranomic.org/Treasuror webpage updated (Trigon)
 - agoranomic.org/Treasuror is now maintained (Trigon)
 - Minor facelift, numbers/dates updated, removed dead link on homepage (nch)
@@ -58,3 +59,4 @@ May 2020
 - Formatting fixes for ruleset webpage (Jason)
 - Security bugfixing for ruleset webpage (Trigon)
 
+```
