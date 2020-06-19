@@ -20,7 +20,6 @@ preamble = "Welcome! This is the Webmastor's homepage, currently maintained by t
 
 with open('docs/index.md', 'w') as f:
     f.write(preamble + "\n" + "\n")
-    f.write("```")
     f.write("Last Updated:" + timestamp + "\n\n")
     f.write(directory)
     f.write("\n")
@@ -28,4 +27,3 @@ with open('docs/index.md', 'w') as f:
     f.write("\n")
     f.write(changelog)
     f.write("\n")
-    f.write("```")
