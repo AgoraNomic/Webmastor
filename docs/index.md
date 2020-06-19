@@ -1,9 +1,10 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-Last Updated:6/19/2020 2:35
+Last Updated:6/19/2020 2:38
 
 Directory
 -------------
+```
 Agoran Homepage ( https://agoranomic.org/ )
 |- Ruleset ( https://agoranomic.org/ruleset/ )
 |- CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
@@ -22,6 +23,7 @@ Other Archives
 |- ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
 |- Assessor's Reports
 |- ( https://agoranomic.org/assessor/ )
+```
 
 Please alert the Webmastor of any missing links.
 
