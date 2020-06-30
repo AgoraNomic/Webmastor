@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-Last Updated:6/30/2020 21:13
+**Last Updated: 6/30/2020 21:26 (UTC)**
 
 Directory
 -------------
@@ -30,13 +30,16 @@ Other Archives
 Please alert the Webmastor of any missing links.
 
 Warnings
---------------
+--------
 
 - Several links on the Agora homepage are out of date.
 - The wiki linked on the header is outdated and unmaintained
 
 Errors
----------
+------
+
+None, currently.
+
 
 Changelog
 ----------------
