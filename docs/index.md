@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 6/30/2020 22:14 (UTC)**
+**Last Updated: 6/30/2020 22:20 (UTC)**
 
 Directory
 ---------
@@ -9,7 +9,9 @@ Agoran Homepage ( https://agoranomic.org/ )
 * Ruleset ( https://agoranomic.org/ruleset/ )
 * CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
 * Registrar ( https://agoranomic.org/Registrar/ )
-* Webmastor ( http://agoranomic.org/Webmastor/ )
+* Webmastor https://agoranomic.org/Webmastor/
+
+https://agoranomic.org/Webmastor/
 
 Public Archives
 * Agora Official
