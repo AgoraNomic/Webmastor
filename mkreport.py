@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 monthshorts = ["jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
-with open('Changelog') as f:
+with open('Changelog.md') as f:
     changelog = f.read()
 
 with open('Directory') as f:
