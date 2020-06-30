@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-Last Updated:6/19/2020 2:48
+Last Updated:6/30/2020 21:13
 
 Directory
 -------------
@@ -51,7 +51,10 @@ Jun 2020
 - agoranomic.org/Treasuror is now maintained (Trigon)
 - Minor facelift, numbers/dates updated, removed dead link on homepage (nch)
 - Fixed tue link on homepage (Jason)
-- Re-added the Agora favicon to the main website (nch)
+- Re-added the Agora favicon to the website (nch)
+- Updated Headers (nch)
+- Added Help pages (nch)
+- Started maintaining an ADoP webpage (R. Lee)
 
 May 2020
 
