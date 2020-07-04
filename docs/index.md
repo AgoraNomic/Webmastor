@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/4/2020 2:17 (UTC)**
+**Last Updated: 7/4/2020 2:32 (UTC)**
 
 Directory
 ---------
@@ -28,8 +28,9 @@ Please alert the Webmastor of any missing links.
 Warnings
 --------
 
-- Several links on the Agora homepage are out of date.
-- The wiki linked on the header is outdated and unmaintained
+- Some links on the Agora homepage are out of date.
+- CotC page does not have a header
+
 
 Errors
 ------
@@ -45,7 +46,9 @@ pages that host them, as well as to any other Agora-related pages.
 
 Jul 2020
 
--Added Header to Registrar (nch)
+- Added Header to agoranomic.org/Registrar (nch)
+- Added Header to agoranomic.org/assessor (nch)
+- Updated agoranomic.org/Treasuror header (nch)
 
 Jun 2020
 
@@ -57,7 +60,7 @@ Jun 2020
 - Re-added the Agora favicon to the website (nch)
 - Added agoranomic.org/Help pages (nch)
 - Updated Headers
-- Added Header to Herald (nch)
+- Added Header to agoranomic.org/Herald (nch)
 
 May 2020
 
