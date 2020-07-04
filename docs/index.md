@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/4/2020 2:16 (UTC)**
+**Last Updated: 7/4/2020 2:17 (UTC)**
 
 Directory
 ---------
@@ -43,6 +43,10 @@ Changelog
 This log does not list updates to reports hosted online, only changes to the
 pages that host them, as well as to any other Agora-related pages.
 
+Jul 2020
+
+-Added Header to Registrar (nch)
+
 Jun 2020
 
 - agornomic.org/Webmastor now online (nch)
@@ -54,7 +58,6 @@ Jun 2020
 - Added agoranomic.org/Help pages (nch)
 - Updated Headers
 - Added Header to Herald (nch)
-- Added Header to Registrat (nch)
 
 May 2020
 
