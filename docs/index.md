@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/18/2020 22:31 (UTC)**
+**Last Updated: 7/21/2020 15:26 (UTC)**
 
 Directory
 ---------
@@ -52,6 +52,7 @@ Jul 2020
 - Changed homepage to jeklly/markdown (Trigon)
 - Various content improvements for agoranomic.org/Help (PSS)
 - Added ACORN (report of regulations) to agoranomic.org/Ruleset (Jason)
+- Updated/fixed the ruleset viewer at agora-ruleset.gaelan.me (Gaelan)
 
 Jun 2020
 
