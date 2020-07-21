@@ -1,6 +1,6 @@
-Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nch. Below is a 'live' version of the Webmastor's report.
+Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/21/2020 15:26 (UTC)**
+**Last Updated: 7/21/2020 15:59 (UTC)**
 
 Directory
 ---------
@@ -39,10 +39,7 @@ None, currently.
 
 
 Changelog
-----------------
-
-This log does not list updates to reports hosted online, only changes to the
-pages that host them, as well as to any other Agora-related pages.
+---------
 
 Jul 2020
 
@@ -65,12 +62,4 @@ Jun 2020
 - Added agoranomic.org/Help pages (nix)
 - Updated Headers
 - Added Header to agoranomic.org/Herald (nix)
-
-May 2020
-
-- Standard header added to registrar webpage (nix)
-- Standard Header added to ruleset webpage (nix)
-- Fixed link to tue on agoranomic.org (Jason)
-- Formatting fixes for ruleset webpage (Jason)
-- Security bugfixing for ruleset webpage (Trigon)
 
