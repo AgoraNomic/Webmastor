@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/21/2020 15:59 (UTC)**
+**Last Updated: 7/29/2020 17:10 (UTC)**
 
 Directory
 ---------
@@ -22,6 +22,7 @@ Public Archives
 Other Archives
 * Reportor's Weekly Summaries ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
 * Assessor's Reports ( https://agoranomic.org/assessor/ )
+* Birthday Tournament 2020 Maps ( https://agoranomic.org/omd-diplonomic-2020-maps/ )
 
 Please alert the Webmastor of any missing links.
 
@@ -50,6 +51,7 @@ Jul 2020
 - Various content improvements for agoranomic.org/Help (PSS)
 - Added ACORN (report of regulations) to agoranomic.org/Ruleset (Jason)
 - Updated/fixed the ruleset viewer at agora-ruleset.gaelan.me (Gaelan)
+- Public turn-by-turn Birthday Tournament maps at https://agoranomic.org/omd-diplonomic-2020-maps/ (omd)
 
 Jun 2020
 
