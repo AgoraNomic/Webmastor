@@ -1,28 +1,38 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/29/2020 17:10 (UTC)**
+**Last Updated: 7/29/2020 17:46 (UTC)**
 
-Directory
----------
++---------+
+|Directory|
++---------+
 
-Agoran Homepage ( https://agoranomic.org/ )
-* Ruleset ( https://agoranomic.org/ruleset/ )
-* CotC ( https://faculty.washington.edu/kerim/nomic/cases/ )
-* Registrar ( https://agoranomic.org/Registrar/ )
-* Webmastor ( https://agoranomic.org/Webmastor/ )
+Agoran Homepage @ https://agoranomic.org/
+
+Reports
+-------
+Ruleset @ https://agoranomic.org/ruleset/
+
+CotC @ https://faculty.washington.edu/kerim/nomic/cases/
+
+Registrar @ https://agoranomic.org/Registrar/
+
+Webmastor @ https://agoranomic.org/Webmastor/
 
 Public Archives
-* Agora Official
-  * ( https://www.mail-archive.com/agora-official@agoranomic.org/info.html )
-* Agora Business
-  * ( https://www.mail-archive.com/agora-business@agoranomic.org/info.html )
-* Agora Discussion
-  * ( https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html )
+---------------
+Agora Official @ https://www.mail-archive.com/agora-official@agoranomic.org/info.html
+
+Agora Business @ https://www.mail-archive.com/agora-business@agoranomic.org/info.html
+
+Agora Discussion @ https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html 
 
 Other Archives
-* Reportor's Weekly Summaries ( https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries )
-* Assessor's Reports ( https://agoranomic.org/assessor/ )
-* Birthday Tournament 2020 Maps ( https://agoranomic.org/omd-diplonomic-2020-maps/ )
+--------------
+Reportor's Weekly Summaries @ https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries
+
+Assessor's Reports @ https://agoranomic.org/assessor/
+
+Birthday Tournament 2020 Maps @ https://agoranomic.org/omd-diplonomic-2020-maps/
 
 Please alert the Webmastor of any missing links.
 
