@@ -1,0 +1,5 @@
+Aug 2020
+
+- enhancements to Treasuror's online report (Trigon)
+- added missing cases to the CotC (G.)
+- added ADoP to web menu (Gaelan)

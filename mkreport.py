@@ -35,8 +35,9 @@ with open('docs/index.md', 'w') as f:
     f.write("\n")
     f.write(warnlog)
     f.write("\n")
-    f.write("Changelog\n")
-    f.write("---------\n\n")
+    f.write("+---------+\n")
+    f.write("|Changelog|\n")
+    f.write("+---------+\n\n")
     # TODO: Add link to full changelog and autogenerate it
     for i in changelogs:
         f.write(i)

@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 7/29/2020 17:46 (UTC)**
+**Last Updated: 8/31/2020 23:0 (UTC)**
 
 +---------+
 |Directory|
@@ -10,11 +10,19 @@ Agoran Homepage @ https://agoranomic.org/
 
 Reports
 -------
-Ruleset @ https://agoranomic.org/ruleset/
+ADoP @ http://zenith.homelinux.net/adop/report.php
+
+Assessor @ https://agoranomic.org/assessor/
 
 CotC @ https://faculty.washington.edu/kerim/nomic/cases/
 
+Herald @ https://agoranomic.org/Herald/
+
 Registrar @ https://agoranomic.org/Registrar/
+
+Ruleset @ https://agoranomic.org/ruleset/
+
+Treasuror @ https://agoranomic.org/Treasuror/
 
 Webmastor @ https://agoranomic.org/Webmastor/
 
@@ -36,21 +44,29 @@ Birthday Tournament 2020 Maps @ https://agoranomic.org/omd-diplonomic-2020-maps/
 
 Please alert the Webmastor of any missing links.
 
-Warnings
---------
++--------+
+|Warnings|
++--------+
 
 - Some links on the Agora homepage are out of date.
 - CotC page does not have a header
 
-
-Errors
-------
++------+
+|Errors|
++------+
 
 None, currently.
 
 
-Changelog
----------
++---------+
+|Changelog|
++---------+
+
+Aug 2020
+
+- enhancements to Treasuror's online report (Trigon)
+- added missing cases to the CotC (G.)
+- added ADoP to web menu (Gaelan)
 
 Jul 2020
 
@@ -62,16 +78,4 @@ Jul 2020
 - Added ACORN (report of regulations) to agoranomic.org/Ruleset (Jason)
 - Updated/fixed the ruleset viewer at agora-ruleset.gaelan.me (Gaelan)
 - Public turn-by-turn Birthday Tournament maps at https://agoranomic.org/omd-diplonomic-2020-maps/ (omd)
-
-Jun 2020
-
-- agornomic.org/Webmastor now online (nix)
-- agoranomic.org/Treasuror webpage updated (Trigon)
-- agoranomic.org/Treasuror is now maintained (Trigon)
-- Minor facelift, numbers/dates updated, removed dead link on homepage (nix)
-- Fixed tue link on homepage (Jason)
-- Re-added the Agora favicon to the website (nix)
-- Added agoranomic.org/Help pages (nix)
-- Updated Headers
-- Added Header to agoranomic.org/Herald (nix)
 
