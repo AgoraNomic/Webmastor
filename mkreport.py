@@ -26,7 +26,7 @@ for i in range(history_len):
     if month==0:
         month = 12
     
-    # If now.month-i is a negative number, we start
+    # Calculate the year for the given month
     if (now.month - i) == 0:
         year = now.year-1
     elif (now.month - i) < 0:
