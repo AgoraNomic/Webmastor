@@ -9,7 +9,7 @@ with open('WarningsAndErrors') as f:
 
 now = datetime.now(timezone.utc)
 
-# How many previous months listed (including this one)
+# How many months listed (including this one)
 history_len = 2
 history = []
 
@@ -18,7 +18,25 @@ for i in range(history_len):
     
 changelogs = []
 
-# TODO: fix for year threshold
+# Code for to find previous months and years specified by history_len. Over engineered to work for an arbitrary number of months back
+for i in range(history_len):
+    month = (now.month - i) % 12
+
+    # because 12 (24, 36, etc) modulus 12 is 0, hardcode that 0s are 12s. Makes sense!
+    if month==0:
+        month = 12
+    
+    # If now.month-i is a negative number, we start
+    if (now.month - i) == 0:
+        year = now.year-1
+    elif (now.month - i) < 0:
+        year = now.year + (now.month - i) // 12
+    else:
+        year = now.year
+    
+    print(month)
+    print(year)
+
 for j in history:
     changelogfile = "changelogs/" + str(now.year) + "-" + str(j).zfill(2) + ".txt"
     with open(changelogfile) as f:
