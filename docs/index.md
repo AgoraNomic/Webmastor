@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 9/30/2020 19:51 (UTC)**
+**Last Updated: 9/30/2020 20:44 (UTC)**
 
 +---------+
 |Directory|
@@ -14,7 +14,7 @@ ADoP @ http://zenith.homelinux.net/adop/report.php
 
 Assessor @ https://agoranomic.org/assessor/
 
-CotC @ https://faculty.washington.edu/kerim/nomic/cases/
+CotC @ https://faculty.washington.edu/kerim/nomic/cases/report.html
 
 Herald @ https://agoranomic.org/Herald/
 
