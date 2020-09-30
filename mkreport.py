@@ -33,9 +33,6 @@ for i in range(history_len):
         year = now.year + (now.month - i) // 12
     else:
         year = now.year
-    
-    print(month)
-    print(year)
 
 for j in history:
     changelogfile = "changelogs/" + str(now.year) + "-" + str(j).zfill(2) + ".txt"
