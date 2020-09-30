@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 9/28/2020 16:14 (UTC)**
+**Last Updated: 9/30/2020 19:51 (UTC)**
 
 +---------+
 |Directory|
@@ -62,7 +62,9 @@ None, currently.
 |Changelog|
 +---------+
 
- 
+Sep 2020
+
+No notable changes recorded
 
 Aug 2020
 
