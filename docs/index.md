@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 9/30/2020 20:44 (UTC)**
+**Last Updated: 10/21/2020 14:0 (UTC)**
 
 +---------+
 |Directory|
@@ -36,11 +36,13 @@ Agora Discussion @ https://www.mail-archive.com/agora-discussion@agoranomic.org/
 
 Other Archives
 --------------
-Reportor's Weekly Summaries @ https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries
-
 Assessor's Reports @ https://agoranomic.org/assessor/
 
+AgoraQuest @ https://agoranomic.org/AgoraQuest/
+
 Birthday Tournament 2020 Maps @ https://agoranomic.org/omd-diplonomic-2020-maps/
+
+Reportor's Weekly Summaries @ https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries
 
 Please alert the Webmastor of any missing links.
 
@@ -62,13 +64,11 @@ None, currently.
 |Changelog|
 +---------+
 
+Oct 2020
+
+- Added an AgoraQuest website (nix and Trigon)
+
 Sep 2020
 
 No notable changes recorded
-
-Aug 2020
-
-- enhancements to Treasuror's online report (Trigon)
-- added missing cases to the CotC (G.)
-- added ADoP to web menu (Gaelan)
 
