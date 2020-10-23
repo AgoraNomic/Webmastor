@@ -39,7 +39,7 @@ for j in history:
     with open(changelogfile) as f:
         changelogs.append(f.read())
 
-timestamp = (str(now.month) + "/" + str(now.day) + "/" + str(now.year) + " " + str(now.hour) + ":" + str(now.minute))
+timestamp = (str(now.month) + "/" + str(now.day) + "/" + str(now.year) + " " + str(now.hour).zfill(2) + ":" + str(now.minute).zfill(2))
 
 preamble = "Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report."
 
