@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 10/21/2020 14:0 (UTC)**
+**Last Updated: 1/9/2021 15:01 (UTC)**
 
 +---------+
 |Directory|
@@ -32,7 +32,9 @@ Agora Official @ https://www.mail-archive.com/agora-official@agoranomic.org/info
 
 Agora Business @ https://www.mail-archive.com/agora-business@agoranomic.org/info.html
 
-Agora Discussion @ https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html 
+Agora Discussion @ https://www.mail-archive.com/agora-discussion@agoranomic.org/info.html
+
+Gio @ https://agoranomic.groups.io/g/main/topics
 
 Other Archives
 --------------
@@ -50,8 +52,8 @@ Please alert the Webmastor of any missing links.
 |Warnings|
 +--------+
 
-- Some links on the Agora homepage are out of date.
 - CotC page does not have a header
+- ADoP page does not have a header
 
 +------+
 |Errors|
@@ -59,16 +61,15 @@ Please alert the Webmastor of any missing links.
 
 None, currently.
 
-
 +---------+
 |Changelog|
 +---------+
 
-Oct 2020
+Jan 2021
 
-- Added an AgoraQuest website (nix and Trigon)
+- front page overhaul (nix)
 
-Sep 2020
+Dec 2020
 
-No notable changes recorded
+- minor website updates (nix)
 

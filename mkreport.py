@@ -11,32 +11,23 @@ now = datetime.now(timezone.utc)
 
 # How many months listed (including this one)
 history_len = 2
-history = []
-
-for i in range(history_len):
-    history.append(now.month-i)
     
 changelogs = []
 
-# Code for to find previous months and years specified by history_len. Over engineered to work for an arbitrary number of months back
+# Find previous months and years specified by history_len.
 for i in range(history_len):
     month = (now.month - i) % 12
-
-    # because 12 (24, 36, etc) modulus 12 is 0, hardcode that 0s are 12s. Makes sense!
-    if month==0:
-        month = 12
     
-    # Calculate the year for the given month
-    if (now.month - i) == 0:
-        year = now.year-1
-    elif (now.month - i) < 0:
-        year = now.year + (now.month - i) // 12
-    else:
-        year = now.year
-
-for j in history:
-    changelogfile = "changelogs/" + str(now.year) + "-" + str(j).zfill(2) + ".txt"
-    with open(changelogfile) as f:
+    years_back = 0
+    if i >= now.month:
+        years_back = (i // 12) + 1
+    
+    if month == 0:
+        month = 12
+        
+    cl_filename = "changelogs/" + str(now.year - years_back) + "-" + str(month).zfill(2) + ".txt"
+    
+    with open(cl_filename) as f:
         changelogs.append(f.read())
 
 timestamp = (str(now.month) + "/" + str(now.day) + "/" + str(now.year) + " " + str(now.hour).zfill(2) + ":" + str(now.minute).zfill(2))
