@@ -1,6 +1,6 @@
 Welcome! This is the Webmastor's homepage, currently maintained by the inaugural Agoran Webmastor, nix. Below is a 'live' version of the Webmastor's report.
 
-**Last Updated: 01/09/2021 15:18 (UTC)**
+**Last Updated: 02/07/2021 22:28 (UTC)**
 
 +---------+
 |Directory|
@@ -46,6 +46,8 @@ Birthday Tournament 2020 Maps @ https://agoranomic.org/omd-diplonomic-2020-maps/
 
 Reportor's Weekly Summaries @ https://github.com/AgoraNomic/Reportor/tree/master/weekly_summaries
 
+Other Nomic Sites @ https://agoranomic.org/other_sites
+
 Please alert the Webmastor of any missing links.
 
 +--------+
@@ -65,11 +67,12 @@ None, currently.
 |Changelog|
 +---------+
 
+Feb 2021
+
+- fixes to Treasuror website (Trigon)
+- update header with link to other sites page (nix)
+
 Jan 2021
 
 - front page overhaul (nix)
-
-Dec 2020
-
-- minor website updates (nix)
 
