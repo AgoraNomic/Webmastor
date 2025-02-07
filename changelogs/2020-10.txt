@@ -1,3 +1,0 @@
-Oct 2020
-
-- Added an AgoraQuest website (nix and Trigon)

@@ -1,7 +1,0 @@
-May 2020
-
-- Standard header added to registrar webpage (nix)
-- Standard Header added to ruleset webpage (nix)
-- Fixed link to tue on agoranomic.org (Jason)
-- Formatting fixes for ruleset webpage (Jason)
-- Security bugfixing for ruleset webpage (Trigon)

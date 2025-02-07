@@ -1,3 +1,0 @@
-Dec 2020
-
-- minor website updates (nix)

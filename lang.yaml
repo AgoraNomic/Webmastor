@@ -1,0 +1,15 @@
+---
+ood_warning: This resource contains some inaccurate or out-of-date information. Please see the Warning Log.
+error:
+  inaccessible: The resource is no longer available. References to this resource should be updated to direct to archive.org when possible or removed.
+  unmaintained: The resource is no longer maintained. References to this resource should be updated to an alternative when possible or removed.
+  unusable: The resource is not considered usable. References to this resource should be updated to an alternative when possible or removed.
+footmatter: |
+  For a resource to be considered notable, at least one of the following must be true:
+   - The resource is of substantial importance to Agora.
+   - The resource has been updated in the last 3 months.
+   - I know of the resource.
+   - I consider the resource notable.
+  Is there a resource you think is notable? Did I miss a warning or error? Other feedback on this report? Please, let me knowfootmatter:
+
+

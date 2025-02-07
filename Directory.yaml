@@ -1,0 +1,46 @@
+---
+- href: https://agoranomic.org
+  label: The official home page of Agora.
+  notable: true
+  ood_warning: true
+- href: https://agoranomic.org/ruleset/
+  label: Up-to-date plaintext view of the ruleset and Rulekeepor reports.
+  notable: true
+  subroutes:
+    - href: https://agoranomic.org/ruleset/flr-fresh.txt
+      label: Unofficial up-to-date FLR
+      notable: true
+    - href: https://agoranomic.org/ruleset/slr.txt
+      label: Most recently published SLR
+      notable: true
+    - href: https://agoranomic.org/ruleset/flr.txt
+      label: Most recently published FLR
+      notable: true
+    - href: https://agoranomic.org/ruleset/acorn.txt
+      label: Most recently published ACORN
+      notable: true
+- href: https://agoranomic.org/Webmastor
+  label: The Webmastor's microsite, containing an unofficial up-to-date copy of this repository.
+  notable: false
+- href: https://agora-ruleset.gaelan.me/
+  label: Up-to-date HTML view of the ruleset, maintained by Gaelan.
+  notable: true
+- href: https://github.com/AgoraNomic
+  label: The official Agora GitHub organization.
+  notable: true
+- href: https://agoranomic.org/archives.html
+  label: Links to all known up-to-date archives and some historical archives.
+  notable: true
+  ood_warning: true
+- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-official/
+  label: The private agora-official archive.
+  notable: false
+- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-business/
+  label: The private agora-business archive.
+  notable: false
+- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-discussion/
+  label: The private agora-discussion archive.
+  notable: false
+- href: https://agoranomic.groups.io/g/main/topics
+  label: The Groups.io archive.
+  notable: false
