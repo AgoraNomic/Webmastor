@@ -32,15 +32,3 @@
   label: Links to all known up-to-date archives and some historical archives.
   notable: true
   ood_warning: true
-- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-official/
-  label: The private agora-official archive.
-  notable: false
-- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-business/
-  label: The private agora-business archive.
-  notable: false
-- href: https://mailman.agoranomic.org/cgi-bin/mailman/private/agora-discussion/
-  label: The private agora-discussion archive.
-  notable: false
-- href: https://agoranomic.groups.io/g/main/topics
-  label: The Groups.io archive.
-  notable: false
