@@ -5,4 +5,8 @@
 - date: 6 Feb 25
   summary: A template for officers' microsites was made available at https://github.com/AgoraNomic/officer-template.
   notes: []
-
+- date: 7 Feb 25
+  summary: agoranomic.org was updated.
+  notes:
+    - We've pivoted to Markdown as much as is reasonable.
+    - Addressed a number of typos and out-of-date bits of information.
