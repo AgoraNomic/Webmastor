@@ -37,9 +37,11 @@ git push
 git clone git@github.com:AgoraNomic/Webmastor.git
 cd Webmastor/
 git checkout -b gh-pages
+
 # Clean up files used for automation/that shouldn't be accessed.
 # Commit files to retain.
 git push --set-upstream origin gh-pages
+
 git remote add template git@github.com:AgoraNomic/officer-template.git
 git fetch --all
 git merge template/gh-pages --allow-unrelated-histories
@@ -58,6 +60,7 @@ git checkout --orphan gh-pages
 rm -rf * .gitmodules
 git commit --allow-empty -m "Create gh-pages branch"
 git push --set-upstream origin gh-pages
+
 git remote add template git@github.com:AgoraNomic/officer-template.git
 git fetch --all
 git merge template/gh-pages --allow-unrelated-histories
