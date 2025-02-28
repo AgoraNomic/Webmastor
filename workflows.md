@@ -87,3 +87,5 @@ git push
 ```
 
 If you wish to update the [main website](<https://github.com/AgoraNomic/agoranomic.github.io>), you'll need to target the `master` branch instead.
+
+The [assessor's site](<https://github.com/AgoraNomic/assessor>) automatically pulls from the officer templates for its layout, and will update following the next assessment.
