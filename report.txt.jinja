@@ -2,51 +2,48 @@
 <> DIRECTORY <>
 ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== 
 
-{% for entry in directory if entry.notable %}
+{% for entry in directory if entry.notable -%}
 [D{{ loop.index }}] {{ entry.href }} : {{ entry.label }}
-{% if entry.ood_warning %}
+{% if entry.ood_warning -%}
  <!> {{ lang.ood_warning }}
-{% endif %}
-{% for subroute in entry.subroutes if subroute.notable %}
+{% endif -%}
+{% for subroute in entry.subroutes if subroute.notable -%}
  - {{ subroute.label }} @ {{ subroute.href }}
 {% endfor %}
-{% endfor %}
+{% endfor -%}
 
 =================================================
 <> CHANGELOG <>
 ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== 
 
-{% for log in reverse(changelog) %}
+{% for log in (changelog | reverse) -%}
 [{{ log.date }}] {{ log.summary }}
-{% for note in log.notes %}
+{% for note in log.notes -%}
  - {{ note }}
 {% endfor %}
-{% endfor %}
-
+{% endfor -%}
 =================================================
 <> WARNING LOG <>
 ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 (This warning log can be thought of as a todo list. I'll try to tackle these to the best of my ability, but would certainly appreciate some help!) 
 
-{% for warning in warnings %}
-[W{{ loop.index }}] {% for resource in warning.affects %}{{resource}}{% if not loop.last %} and {% endif %}
-{% for note in warning.warnings %}
+{% for warning in warnings -%}
+[W{{ loop.index }}] {% for resource in warning.affects %}{{resource}}{% if not loop.last %} and {% endif %}{% endfor %}
+{% for note in warning.warnings -%}
  - {{ note }}
 {% endfor %}
-{% endfor %}
-
+{% endfor -%}
 =================================================
 <> ERROR LOG <>
 ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-{% for error in errors %}
-[E{{ loop.index }}] {% for resource in error.resources %}{{resource}}{% if not loop.last %} and {% endif %}
- - {{ lang.error[error.error-type] }}
- - Affects {% for resource in error.affects %}{{resource}}{% if not loop.last %} and {% endif %}
-{% endfor %}
+{% for error in errors -%}
+[E{{ loop.index }}] {% for resource in error.resources %}{{resource}}{% if not loop.last %} and {% endif %}{% endfor %}
+ - {{ lang.error[error.error_type] }}
+ - Affects {% for resource in error.affects %}{{resource}}{% if not loop.last %} and {% endif %}{% endfor %}
 
+{% endfor -%}
 ================================================= 
 
 {{ lang.footmatter }}
-
 ================================================= 

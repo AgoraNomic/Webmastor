@@ -1,10 +1,10 @@
 ---
-- error-type: inaccessible
+- error_type: inaccessible
   resources: 
     - https://cfj.qoid.us/
   affects:
     - https://agoranomic.org/archives.html
-- error-type: inaccessible
+- error_type: inaccessible
   resources:
     - http://zenith.homelinux.net/
   affects:
