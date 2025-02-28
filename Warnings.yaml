@@ -5,14 +5,6 @@
     - https://agoranomic.org/judgements.html
     - https://agoranomic.org/cases/
 - warnings:
-    - Contracts have been reintroduced.
-  affects:
-    - http://agoranomic.org/archives.html
-- warnings:
-    - Hooves and horse races do not presently exist.
-  affects:
-    - https://agoranomic.org/play.html
-- warnings:
     - Matrix is not presently bridged to Discord; it is likely not bridged to IRC.
   affects:
     - https://agoranomic.org
