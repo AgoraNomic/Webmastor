@@ -41,6 +41,8 @@
 [E{{ loop.index }}] {% for resource in error.resources %}{{resource}}{% if not loop.last %} and {% endif %}{% endfor %}
  - {{ lang.error[error.error_type] }}
  - Affects {% for resource in error.affects %}{{resource}}{% if not loop.last %} and {% endif %}{% endfor %}
+{% else -%}
+No errors exist at this time.
 
 {% endfor -%}
 ================================================= 
