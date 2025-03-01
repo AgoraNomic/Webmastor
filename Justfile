@@ -8,3 +8,7 @@ build:
         errors: (cat ./Errors.yaml | from yaml),
         lang: (cat ./lang.yaml | from yaml),
     } | to json | jinja2 ./report.txt.jinja | save report.txt --force
+
+# Removes the compiled report.
+clean:
+    rm report.txt
