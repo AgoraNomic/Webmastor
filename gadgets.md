@@ -72,7 +72,7 @@ This tool will generate a (optionally salted) hash. The algorithm is SHA-256.
 
 ## Password-Encrypted Cipher
 
-This tool will encrypt a plaintext with a password, or decrypt from a password. The algorithm used is AES-256 via PGP protocol.
+This tool will encrypt a plaintext with a password, or decrypt from a password. This encrypts with the PGP protocol (backed by the AES-256 algorithm.)
  _Don't forget to specify the algorithm used so others can easily verify!_
 
 <label for="cry-password">Password:</label>
