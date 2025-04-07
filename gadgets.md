@@ -3,14 +3,17 @@ layout: puremd
 ---
 <script>
   async function handleHash() {
-    const salt = document.getElementById("hash-salt").value.trim();
-    const plaintext = document
-      .getElementById("hash-plaintext")
+    const saltElement = document.getElementById("hash-salt");
+    const plaintextElement = document.getElementById("hash-plaintext");
+    const salt = saltElement.value.trim();
+    const plaintext = plaintextElement
       .value
       .split(/\r?\n|\r|\n/g)
       .map((line) => line.trim())
       .join("\n")
       .trim();
+    saltElement.value = salt;
+    plaintextElement.value = plaintext;
     const saltedPlaintext = (salt + "\n" + plaintext).trim();
     const encodedPlaintext = new TextEncoder().encode(saltedPlaintext);
     const hashedMessage = await window.crypto.subtle.digest("SHA-256", encodedPlaintext);
@@ -62,7 +65,9 @@ The process used to generate this hash is as follows:
 4. We run the bytes of the text through SHA-256 encryption.
 5. We encode the result in [base 64](<https://en.wikipedia.org/wiki/Base64>) for displaying.
 
-You should specify the algorithm/process to recreate the hash and/or link back to this page when you make your commitment.
+After step 2, we update the values you provided to reflect the processed values used.
+
+You should specify the process to recreate the hash and/or link back to this page when you make your commitment. If steps 1–3 do not affect your input, you can just refer to it as a "base-64 encoded SHA-256 hash".
 
 ## Implementation Notes
 
