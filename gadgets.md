@@ -49,7 +49,6 @@ World
 <input type="text" id="hash-salt" name="hash-salt" placeholder="Salt" />
 
 <textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="80" placeholder="Plaintext">
-I transfer 1 spendie to the Webmastor.
 </textarea>
 
 <textarea id="hash-output" name="hash-output" rows="1" cols="60" placeholder="Fingerprint" readonly>
