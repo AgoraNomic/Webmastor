@@ -59,10 +59,10 @@ This tool will generate a (optionally salted) hash. The algorithm is SHA-256.
 <label for="hash-salt">Salt:</label>
 <input type="text" id="hash-salt" name="hash-salt" />
 
-<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="50">
+<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="40">
   I register.
 </textarea>
-<textarea id="hash-output" name="hash-output" rows="6" cols="50" readonly>
+<textarea id="hash-output" name="hash-output" rows="6" cols="40" readonly>
 </textarea>
 
 <input type="button" value="Hash" onclick="handleHash();">
@@ -78,10 +78,10 @@ This tool will encrypt a plaintext with a password, or decrypt from a password. 
 <label for="cry-password">Password:</label>
 <input type="text" id="cry-password" name="cry-password" />
 
-<textarea id="cry-plaintext" name="cry-plaintext">
+<textarea id="cry-plaintext" name="cry-plaintext" rows="6" cols="40">
   I register.
 </textarea>
-<textarea id="cry-ciphertext" name="cry-ciphertext">
+<textarea id="cry-ciphertext" name="cry-ciphertext" rows="6" cols="40">
 </textarea>
 
 <input type="button" value="Encrypt" onclick="handleEncrypt();">
