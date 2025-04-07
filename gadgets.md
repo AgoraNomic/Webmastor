@@ -58,7 +58,7 @@ World
 
 The process used to generate this hash is as follows:
 
-1. We remove leading and trailing whitespace from each line of both the salt and the hashed message, as well as any empty lines at the beginning or end.
+1. We remove leading and trailing whitespace from each line of both the salt and the plaintext and trim any empty lines at the beginning or end.
 2. We standardize all new-line characters to `\n`.
 3. If `salt` is given, we combine the salt and plaintext (salt + newline + plaintext).
 4. We run the bytes of the text through SHA-256 encryption.
