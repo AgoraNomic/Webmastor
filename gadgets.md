@@ -26,6 +26,8 @@ This page provides gadgets for helping to create Fingerprints and other digitall
 
 This tool will generate an (optionally salted) hash using the SHA-256 algorithm.
 
+An example of a strong salt might be four or more dictionary words chosen at random.
+
 <label for="hash-salt">Salt</label>
 <input type="text" id="hash-salt" name="hash-salt" />
 
