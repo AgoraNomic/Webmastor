@@ -27,10 +27,10 @@ layout: puremd
     const password = document.getElementById("cry-password").value;
     const ciphertext = document.getElementById("cry-ciphertext").value;
     const message = await openpgp.readMessage({ armoredMessage: ciphertext.trim() });
-    const decryptedMessage = await openpgp.decrypt({
+    const decryptedMessage = (await openpgp.decrypt({
       message,
       passwords: [password],
-    });
+    })).data;
     const output = document.getElementById("cry-plaintext");
     output.value = decryptedMessage;
   }
