@@ -7,7 +7,7 @@ layout: puremd
   async function handleHash() {
     const salt = document.getElementById("hash-salt").value;
     const plaintext = document.getElementById("hash-plaintext").value;
-    const salted_plaintext = (salt + "\n" + plaintext).trim();
+    const salted_plaintext = (salt.trim() + "\n" + plaintext.trim()).trim();
     const hashedMessage = new Hashes.SHA256().b64(salted_plaintext);
     const output = document.getElementById("hash-output");
     output.textContent = hashedMessage;
@@ -15,7 +15,7 @@ layout: puremd
   async function handleEncrypt() {
     const password = document.getElementById("cry-password").value;
     const plaintext = document.getElementById("cry-plaintext").value;
-    const message = await openpgp.readMessage({ text: plaintext.trim() });
+    const message = await openpgp.createMessage({ text: plaintext.trim() });
     const encryptedMessage = await openpgp.encrypt({
       message,
       passwords: [password],
@@ -24,9 +24,9 @@ layout: puremd
     output.value = encryptedMessage;
   }
   async function handleDecrypt() {
-    const password = document.getElementById("cry-salt").value;
+    const password = document.getElementById("cry-password").value;
     const ciphertext = document.getElementById("cry-ciphertext").value;
-    const message = await openpgp.readMessage({ text: ciphertext.trim() });
+    const message = await openpgp.readMessage({ armoredMessage: ciphertext.trim() });
     const decryptedMessage = await openpgp.decrypt({
       message,
       passwords: [password],
@@ -53,14 +53,15 @@ to see the original text." These are likely not useful for a Fingerprint. It may
 This tool will generate a (optionally salted) hash. The algorithm is SHA-256.
  _Don't forget to specify the algorithm used so others can easily verify!_
 
-<input type="text" id="hash-salt" name="hash-salt"></input>
+<input type="text" id="hash-salt" name="hash-salt" />
 
-<textarea id="hash-plaintext" name="hash-plaintext">
+<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="50">
+</textarea>
+<textarea id="hash-output" name="hash-output" rows="6" cols="50" readonly>
 </textarea>
 
 <input type="button" value="Hash" onclick="handleHash();">
 
-<p id="hash-output"></p>
 
 (The final input is just "salt + newline + plaintext".)
 
@@ -69,7 +70,7 @@ This tool will generate a (optionally salted) hash. The algorithm is SHA-256.
 This tool will encrypt a plaintext with a password, or decrypt from a password. The algorithm used is AES-256.
  _Don't forget to specify the algorithm used so others can easily verify!_
 
-<input type="text" id="cry-password" name="cry-password"></input>
+<input type="text" id="cry-password" name="cry-password" />
 
 <textarea id="cry-plaintext" name="cry-plaintext">
 </textarea>
