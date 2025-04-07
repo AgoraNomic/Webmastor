@@ -47,9 +47,7 @@ I transfer 1 spendie to the Webmastor.
 The process used to generate this hash is as follows:
 
 1. We remove leading and trailing whitespace from each line of both the salt and the hashed message, as well as any empty lines at the beginning or end.
-  - _This makes copying and pasting more reliable, and allows indenting messages in quotes when you reveal it._
 2. We standardize all new-line characters to `\n`.
-  - _This helps standardize across operating systems._
 3. If `salt` is given, we combine the salt and plaintext (salt + newline + plaintext).
 4. We run the bytes of the text through SHA-256 encryption.
 5. We encode the result in [base 64](<https://en.wikipedia.org/wiki/Base64>) for displaying.
