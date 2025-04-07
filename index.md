@@ -13,6 +13,7 @@ Hiya! I'm kiako, your friendly Webmastor. Generally, I'm responsible for:
 
 If you're ever in need of assistance with HTML, CSS, JavaScript, Git, or scripting, feel free to reach out to me!
 
+- [Gadgets](/Webmastor/gadgets.html) has some gadgets that might be useful for playing Agora.
 - [Workflows](/Webmastor/workflows.html) contains all my scripts/workflows for Webmastor duties.
 
 ## The Index
