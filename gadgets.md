@@ -12,7 +12,7 @@ layout: puremd
       .join("\n")
       .trim();
     const saltedPlaintext = (salt + "\n" + plaintext).trim();
-    const hashedMessage = window.crypto.subtle.digest("SHA-256", btoa(saltedPlaintext));
+    const hashedMessage = await window.crypto.subtle.digest("SHA-256", btoa(saltedPlaintext));
     const output = document.getElementById("hash-output");
     output.value = hashedMessage;
   }
