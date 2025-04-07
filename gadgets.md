@@ -12,9 +12,14 @@ layout: puremd
       .join("\n")
       .trim();
     const saltedPlaintext = (salt + "\n" + plaintext).trim();
-    const hashedMessage = await window.crypto.subtle.digest("SHA-256", btoa(saltedPlaintext));
+    const encodedPlaintest = new TextEncoder().encode(saltedPlaintext);
+    const hashedMessage = await window.crypto.subtle.digest("SHA-256", btoa(encodedPlaintext));
+    const encodedHashedMessage = btoa(
+      new Uint8Array(hashedMessage)
+        .reduce((data, byte) => data + String.fromCharCode(byte), '')
+    );
     const output = document.getElementById("hash-output");
-    output.value = hashedMessage;
+    output.value = encodedHashedMessage;
   }
 </script>
 
@@ -46,8 +51,8 @@ The process used to generate this hash is as follows:
 2. We standardize all new-line characters to `\n`.
   - _This helps standardize across operating systems._
 3. If `salt` is given, we combine the salt and plaintext (salt + newline + plaintext).
-4. We encode the text in [base 64](<https://en.wikipedia.org/wiki/Base64>). 
-5. We run the text through SHA-256 encryption.
+4. We run the bytes of the text through SHA-256 encryption.
+5. We encode the result in [base 64](<https://en.wikipedia.org/wiki/Base64>) for displaying.
 
 You should specify the algorithm/process to recreate the hash and/or link back to this page when you make your commitment.
 
