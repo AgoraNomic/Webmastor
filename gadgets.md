@@ -36,10 +36,11 @@ An example of a strong salt might be four or more dictionary words chosen at ran
 <label for="hash-salt">Salt</label>
 <input type="text" id="hash-salt" name="hash-salt" />
 
-<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="40">
+<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="80">
 I transfer 1 spendie to the Webmastor.
 </textarea>
-<textarea id="hash-output" name="hash-output" rows="6" cols="40" readonly>
+
+<textarea id="hash-output" name="hash-output" rows="1" cols="60" readonly>
 </textarea>
 
 <input type="button" value="Hash" onclick="handleHash();">
