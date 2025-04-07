@@ -12,7 +12,7 @@ layout: puremd
       .join("\n")
       .trim();
     const saltedPlaintext = (salt + "\n" + plaintext).trim();
-    const encodedPlaintest = new TextEncoder().encode(saltedPlaintext);
+    const encodedPlaintext = new TextEncoder().encode(saltedPlaintext);
     const hashedMessage = await window.crypto.subtle.digest("SHA-256", btoa(encodedPlaintext));
     const encodedHashedMessage = btoa(
       new Uint8Array(hashedMessage)
