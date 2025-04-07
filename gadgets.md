@@ -29,18 +29,27 @@ This page provides gadgets for helping to create Fingerprints and other digitall
 
 ## Salted Hash
 
-This tool will generate an (optionally salted) hash using the SHA-256 algorithm.
+This tool will generate an (optionally salted) hash using the SHA-256 algorithm. Hash algorithms such as SHA-256 are typically suitable for Fingerprints pursuant to Rule 2681.
 
-An example of a strong salt might be four or more dictionary words chosen at random.
+Salting is recommended to prevent guessing, particularly for simple actions. A salt can be any text inserted into the plaintext before hashing, but should generally not be able to be mistaken for game actions. Some examples of strong salts include:
 
-<label for="hash-salt">Salt</label>
-<input type="text" id="hash-salt" name="hash-salt" />
+- Four or more dictionary words chosen at random.
+- A sentence.
 
-<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="80">
+This interface separates the salt from the plaintext, but one could easily salt their own plaintext. Putting a salt of `Hello` and a plaintext of `World` in this interface is identical to putting a plaintext of:
+
+```plaintext
+Hello
+World
+```
+
+<input type="text" id="hash-salt" name="hash-salt" placeholder="Salt" />
+
+<textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="80" placeholder="Plaintext">
 I transfer 1 spendie to the Webmastor.
 </textarea>
 
-<textarea id="hash-output" name="hash-output" rows="1" cols="60" readonly>
+<textarea id="hash-output" name="hash-output" rows="1" cols="60" placeholder="Fingerprint" readonly>
 </textarea>
 
 <input type="button" value="Hash" onclick="handleHash();">
