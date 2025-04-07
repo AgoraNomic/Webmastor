@@ -2,7 +2,6 @@
 layout: puremd
 ---
 <script src="http://cdn.rawgit.com/h2non/jsHashes/master/hashes.js"></script>
-<script src="https://unpkg.com/openpgp@6.1.0/dist/openpgp.min.js"></script>
 <script>
   async function handleHash() {
     const salt = document.getElementById("hash-salt").value;
@@ -11,28 +10,6 @@ layout: puremd
     const hashedMessage = new Hashes.SHA256().b64(salted_plaintext);
     const output = document.getElementById("hash-output");
     output.textContent = hashedMessage;
-  }
-  async function handleEncrypt() {
-    const password = document.getElementById("cry-password").value;
-    const plaintext = document.getElementById("cry-plaintext").value;
-    const message = await openpgp.createMessage({ text: plaintext.trim() });
-    const encryptedMessage = await openpgp.encrypt({
-      message,
-      passwords: [password],
-    });
-    const output = document.getElementById("cry-ciphertext");
-    output.value = encryptedMessage;
-  }
-  async function handleDecrypt() {
-    const password = document.getElementById("cry-password").value;
-    const ciphertext = document.getElementById("cry-ciphertext").value;
-    const message = await openpgp.readMessage({ armoredMessage: ciphertext.trim() });
-    const decryptedMessage = (await openpgp.decrypt({
-      message,
-      passwords: [password],
-    })).data;
-    const output = document.getElementById("cry-plaintext");
-    output.value = decryptedMessage;
   }
 </script>
 
@@ -70,29 +47,11 @@ This tool will generate a (optionally salted) hash. The algorithm is SHA-256.
 
 (The final input is just "salt + newline + plaintext".)
 
-## Password-Encrypted Cipher
-
-This tool will encrypt a plaintext with a password, or decrypt from a password. This encrypts with the PGP protocol (backed by the AES-256 algorithm.)
- _Don't forget to specify the algorithm used so others can easily verify!_
-
-<label for="cry-password">Password:</label>
-<input type="text" id="cry-password" name="cry-password" />
-
-<textarea id="cry-plaintext" name="cry-plaintext" rows="6" cols="40">
-  I register.
-</textarea>
-<textarea id="cry-ciphertext" name="cry-ciphertext" rows="6" cols="40">
-</textarea>
-
-<input type="button" value="Encrypt" onclick="handleEncrypt();">
-<input type="button" value="Decrypt" onclick="handleDecrypt();">
-
 
 ## Implementation Notes
 
 This page runs entirely in your browser (hence why browser support is required) and does not make network requests beyond fetching the following dependencies:
 
 - Hashing uses [jshashes](<https://www.npmjs.com/package/jshashes>).
-- Password encryption uses [OpenPGPjs](<https://openpgpjs.org>).
 
 The source code for this page is available in the [Webmastor's GitHub repository](<https://github.com/AgoraNomic/Webmastor/blob/gh-pages/gadgets.md?plain=1>).
