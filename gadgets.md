@@ -30,7 +30,7 @@ This tool will generate an (optionally salted) hash using the SHA-256 algorithm.
 <input type="text" id="hash-salt" name="hash-salt" />
 
 <textarea id="hash-plaintext" name="hash-plaintext" rows="6" cols="40">
-  I transfer 1 spendie to the Webmastor.
+I transfer 1 spendie to the Webmastor.
 </textarea>
 <textarea id="hash-output" name="hash-output" rows="6" cols="40" readonly>
 </textarea>
