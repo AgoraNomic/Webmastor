@@ -1,24 +1,10 @@
 ---
-- date: 4 Feb 2025
-  summary: First log as published by me.
-  notes: []
-- date: 6 Feb 2025
-  summary: A template for officers' microsites was made available at https://github.com/AgoraNomic/officer-template.
-  notes: []
-- date: 7 Feb 2025
-  summary: agoranomic.org was updated.
-  notes:
-    - We've pivoted to Markdown as much as is reasonable.
-    - Addressed a number of typos and out-of-date bits of information.
-- date: 23 Feb 2025
-  summary: Murphy kindly added/updated pages for eir offices.
-  notes:
-    - ADoP page was updated.
-    - Spendor page was added.
-    - Tailor page was updated.
-- date: 28 Feb 2025
-  summary: Added Murphy's officer pages to nav.
-  notes: []
 - date: 1 March 2025
-  summary: Corrected broken links on '/archives', resolving all errors.
+  summary: Date of prior report.
+  notes: []
+- date: 20 March 2025
+  summary: juan kindly added a page for eir Absurdor office. (Sorry I didn't catch this! Will be adding to the nav shortly!)
+  notes: []
+- date: 7 Apr 2025
+  summary: Added agoranomic.org/Webmastor/gadgets
   notes: []
